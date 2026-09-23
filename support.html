@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IdleCrawler Support</title>
+<style>
+ body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+        background:linear-gradient(170deg,#20232B,#2E3440); color:#F3EFE8; min-height:100vh; }
+ .wrap { max-width:640px; margin:0 auto; padding:56px 22px 70px; }
+ h1 { font-size:1.9rem; margin:0 0 10px; }
+ p { color:#BDB6AC; line-height:1.7; }
+ a { color:#C08A3E; }
+ .card { background:rgba(255,255,255,.08); border-radius:18px; padding:20px 22px; margin-top:18px; }
+</style>
+</head>
+<body><div class="wrap">
+ <h1>IdleCrawler Support</h1>
+ <p data-en="Questions, bug reports and suggestions are always welcome. Email is the fastest way to reach me and I answer in English or Korean."
+    data-ko="문의, 버그 제보, 제안은 언제든 환영합니다. 메일이 가장 빠르며 한국어와 영어로 답변드립니다.">Questions, bug reports and suggestions are always welcome. Email is the fastest way to reach me and I answer in English or Korean.</p>
+ <div class="card">
+  <p style="margin:0"><strong>Email</strong><br><a href="mailto:mall77@naver.com">mall77@naver.com</a></p>
+ </div>
+ <div class="card">
+  <p style="margin:0" data-en="Your progress is stored on your device only. Deleting the app deletes your save, and it cannot be restored."
+     data-ko="진행 상황은 기기에만 저장됩니다. 앱을 지우면 저장 내용도 사라지며 복구할 수 없습니다.">Your progress is stored on your device only. Deleting the app deletes your save, and it cannot be restored.</p>
+ </div>
+ <p style="margin-top:26px"><a href="index.html" data-en="Back to IdleCrawler" data-ko="IdleCrawler 소개로 돌아가기">Back to IdleCrawler</a> &middot; <a href="privacy.html" data-en="Privacy Policy" data-ko="개인정보처리방침">Privacy Policy</a></p>
+ <p style="font-size:.85rem">Bumjoon Lee &middot; &copy; 2026</p>
+</div>
+<script>
+ if ((navigator.language||"").toLowerCase().startsWith("ko")) {
+   document.documentElement.lang="ko";
+   document.querySelectorAll("[data-ko]").forEach(function(el){ el.textContent = el.dataset.ko; });
+ }
+</script>
+</body></html>
